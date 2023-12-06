@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Math "
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rate"
+        android:text="rate"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SC"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cefel"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="33"
+            android:layout_marginRight="2dp"
+            android:text="Multipiy until 20" />
+
+        <Button
+            android:id="@+id/etgar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="33"
+            android:text="challenge" />
+
+        <Button
+            android:id="@+id/lwach"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="33"
+            android:text="multuplaction table" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="130dp"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@color/teal_200"
+            android:layout_marginBottom="3dp"
+            />
+
+        <TextView
+            android:id="@+id/caful"
+            android:layout_width="130dp"
+            android:layout_height="73dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/teal_200"
+            android:text="x"
+            android:gravity="center"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="130dp"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@color/teal_200"
+            android:layout_marginBottom="3dp"
+            />
+
+        <EditText
+            android:id="@+id/Answer"
+            android:layout_width="130dp"
+            android:layout_height="73dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="answer"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="examination"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+
+
+
+  />  </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/examination"
+        android:layout_gravity="center"
+        android:text="examination"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red12"
+        android:text="save"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+<!--        <Button-->
+<!--            android:id="@+id/save"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="73dp"-->
+<!--            android:backgroundTint="@color/teal_200"-->
+<!--            android:text="check"-->
+<!--            android:textSize="30sp" />-->
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="show alll users"
+            android:textSize="30sp"
+            android:backgroundTint="@color/teal_200"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
